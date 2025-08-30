@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Diego Rodriguez — IT Technician | Network & System Support</title>
+  <meta name="description" content="Portfolio of Diego Rodriguez, IT Technician specializing in hardware/software support, networking, security, and cloud/data management." />
+
+  <!-- Fonts & Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="dark">
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header>
+    <div class="brand"><strong>Diego Rodriguez</strong></div>
+
+    <button id="menuToggle"
+            class="menu-toggle"
+            aria-label="Open menu"
+            aria-expanded="false"
+            aria-controls="primaryNav">☰</button>
+
+    <nav id="primaryNav" class="nav" aria-label="Primary">
+      <ul>
+        <li><a href="#home" aria-current="page">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#certs">Certifications</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="actions">
+      <button id="themeToggle" class="btn" aria-label="Switch to light mode" aria-pressed="true">🌙</button>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- Hero -->
+    <section id="home" class="hero-grid">
+      <div class="hero-text">
+        <h1>Diego Rodriguez</h1>
+        <p>IT Technician | Network &amp; System Support</p>
+        <p class="tagline">I help businesses troubleshoot issues, secure their systems, and keep technology running smoothly.</p>
+
+        <!-- Attention bar -->
+        <div class="attention-bar" role="note" aria-label="Key value">
+          <span class="pulse-dot" aria-hidden="true"></span>
+          Fast, reliable IT support for growing businesses
+        </div>
+
+        <!-- Capabilities marquee -->
+        <div class="capabilities-marquee" aria-hidden="true">
+          <ul class="capabilities-track">
+            <li><i class="fas fa-microchip"></i> Hardware Support</li>
+            <li><i class="fas fa-laptop-code"></i> Software Setup</li>
+            <li><i class="fas fa-network-wired"></i> Networking</li>
+            <li><i class="fas fa-shield-alt"></i> Security</li>
+            <li><i class="fas fa-cloud"></i> Cloud &amp; Backups</li>
+            <li><i class="fas fa-screwdriver-wrench"></i> Troubleshooting</li>
+
+            <!-- duplicate for seamless loop -->
+            <li><i class="fas fa-microchip"></i> Hardware Support</li>
+            <li><i class="fas fa-laptop-code"></i> Software Setup</li>
+            <li><i class="fas fa-network-wired"></i> Networking</li>
+            <li><i class="fas fa-shield-alt"></i> Security</li>
+            <li><i class="fas fa-cloud"></i> Cloud &amp; Backups</li>
+            <li><i class="fas fa-screwdriver-wrench"></i> Troubleshooting</li>
+          </ul>
+        </div>
+
+        <div class="cta">
+          <a class="btn primary" href="#about">About Me</a>
+          <a class="btn outline" href="#contact">Contact Me</a>
+        </div>
+      </div>
+
+      <div class="hero-media">
+        <div class="profile-photo-wrapper">
+          <img id="heroImage" src="images/hero.png" alt="Diego Rodriguez, IT Technician" width="640" height="640" loading="lazy" />
+        </div>
+      </div>
+    </section>
+
+<!-- About Me -->
+<section id="about">
+  <h2>About Me</h2>
+  <div class="about-grid">
+    <div class="about-card card">
+      <p class="lead">
+        I’m Diego, an IT Technician who enjoys helping people solve tech problems and keeping systems running smoothly.
+      </p>
+      <p>
+        Skilled in troubleshooting hardware and software, maintaining secure networks, and upgrading systems as needed. 
+        Fluent in English and Spanish, I’m ready to support others—whether independently or as part of a team.
+      </p>
+
+      <ul class="about-list">
+        <li><i class="fas fa-screwdriver-wrench"></i> Troubleshooting hardware &amp; software</li>
+        <li><i class="fas fa-network-wired"></i> Maintaining secure networks</li>
+        <li><i class="fas fa-desktop"></i> System upgrades &amp; optimization</li>
+        <li><i class="fas fa-language"></i> Fluent in English &amp; Spanish</li>
+      </ul>
+
+      <div class="about-cta">
+        <a class="btn primary" href="#contact">Work With Me</a>
+        <a id="resumeDownload" class="btn-resume"
+           href="files/Diego_Rodriguez_Resume.pdf"
+           target="_blank" rel="noopener">
+          <img src="images/download-icon.png" alt="Resume icon">
+          View Resume
+        </a>
+      </div>
+    </div>
+
+    <div class="about-aside card">
+      <h3>Quick Facts</h3>
+      <ul class="facts">
+        <li>Based in Texas</li>
+        <li>5+ Years IT Experience</li>
+        <li>Travel Technician</li>
+      </ul>
+
+      <div class="about-photo">
+    <img src="images/about-photo.jpg" alt="Diego working on IT equipment" />
+      </div>
+    </div>
+  </div>
+</section>
+
+    <!-- Skills -->
+    <section id="skills" aria-labelledby="skills-heading">
+      <h2 id="skills-heading">Skills</h2>
+      <div class="skills" role="list">
+        <div class="card" role="listitem"><i class="fas fa-code" aria-hidden="true"></i> Software Development</div>
+        <div class="card" role="listitem"><i class="fab fa-windows" aria-hidden="true"></i> Windows &amp; Linux Administration</div>
+        <div class="card" role="listitem"><i class="fas fa-network-wired" aria-hidden="true"></i> Network Administration</div>
+        <div class="card" role="listitem"><i class="fas fa-paint-brush" aria-hidden="true"></i> Web Design &amp; Development</div>
+        <div class="card" role="listitem"><i class="fas fa-laptop-code" aria-hidden="true"></i> Software Applications</div>
+        <div class="card" role="listitem"><i class="fas fa-headset" aria-hidden="true"></i> Technical Support</div>
+        <div class="card" role="listitem"><i class="fas fa-screwdriver-wrench" aria-hidden="true"></i> Hardware Repair &amp; Troubleshooting</div>
+        <div class="card" role="listitem"><i class="fas fa-desktop" aria-hidden="true"></i> Hardware Installation &amp; Upgrades</div>
+      </div>
+    </section>
+
+<!-- Projects -->
+<section id="projects" aria-labelledby="projects-heading">
+  <h2 id="projects-heading">Projects</h2>
+
+  <div class="projects">
+    <!-- Project 1 -->
+    <article class="card project">
+        <h3>AP & Switch Upgrade — Kwik Trip</h3>
+        <div class="project-meta">
+          <span class="chip">Multi-site</span>
+          <span class="chip chip-green">Reliability</span>
+        </div>
+      </header>
+
+      <p>
+        Managed a multi-location upgrade of access points and switches to increase capacity and uptime.
+        Replaced aging hardware and standardized configs for easier maintenance and scaling.
+      </p>
+
+      <ul class="project-outcomes">
+        <li><i class="fas fa-arrow-up"></i> Faster Wi-Fi across stores</li>
+        <li><i class="fas fa-network-wired"></i> Stable backhaul & VLAN hygiene</li>
+        <li><i class="fas fa-shield-alt"></i> Hardened configs & role-based access</li>
+      </ul>
+
+      <div class="project-tech">
+        <span class="pill">802.11ac/ax</span>
+        <span class="pill">Managed Switches</span>
+        <span class="pill">RADIUS</span>
+        <span class="pill">VLANs</span>
+      </div>
+    </article>
+
+    <!-- Project 2 -->
+    <article class="card project">
+        <h3>Network Infrastructure Upgrade</h3>
+        <div class="project-meta">
+          <span class="chip">SMB</span>
+          <span class="chip chip-blue">Performance</span>
+        </div>
+      </header>
+
+      <p>
+        Assessed an underperforming retail network, redesigned the topology, and deployed high-speed routing,
+        switching, and updated security. Eliminated frequent outages and future-proofed capacity.
+      </p>
+
+      <ul class="project-outcomes">
+        <li><i class="fas fa-gauge-high"></i> ~40% higher throughput</li>
+        <li><i class="fas fa-plug-circle-check"></i> Zero unplanned downtime post-go-live</li>
+        <li><i class="fas fa-lock"></i> Modern firewall & VPN posture</li>
+      </ul>
+
+      <div class="project-tech">
+        <span class="pill">Gigabit</span>
+        <span class="pill">QoS</span>
+        <span class="pill">Firewall</span>
+        <span class="pill">VPN</span>
+      </div>
+    </article>
+
+    <!-- Project 3 -->
+    <article class="card project">
+        <h3>Security Camera System Upgrade</h3>
+        <div class="project-meta">
+          <span class="chip">Murphy • 7-Eleven • Thorntons</span>
+          <span class="chip chip-purple">Security</span>
+        </div>
+      </header>
+
+      <p>
+        Replaced legacy CCTV with HD IP cameras, centralized recording, and secure remote access for
+        multi-site monitoring. Increased clarity, coverage, and incident response speed.
+      </p>
+
+      <ul class="project-outcomes">
+        <li><i class="fas fa-video"></i> HD coverage with better low-light</li>
+        <li><i class="fas fa-cloud-arrow-up"></i> Centralized NVR + remote viewing</li>
+        <li><i class="fas fa-user-shield"></i> Role-based access & audit trails</li>
+      </ul>
+
+      <div class="project-tech">
+        <span class="pill">IP Cameras</span>
+        <span class="pill">PoE</span>
+        <span class="pill">NVR</span>
+        <span class="pill">Remote Monitoring</span>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section id="experience" aria-labelledby="experience-heading">
+  <h2 id="experience-heading">Experience</h2>
+  <div class="experience timeline">
+    <div class="card timeline-item">
+      <h3>Field Service Technician — Capital Business Equipment (CBE), Montgomery, AL</h3>
+      <p><em>2021 – Present</em></p>
+      <ul>
+        <li>Deployed POS systems and network solutions for <strong>7-Eleven, Circle K, and Murphy USA</strong>.</li>
+        <li>Diagnosed and troubleshot IT equipment, reducing downtime.</li>
+        <li>Installed and maintained low-voltage equipment (security &amp; alarm systems).</li>
+        <li>Specialized in network management/configuration for retail clients.</li>
+        <li>Earned <strong>Verifone Certification</strong>.</li>
+      </ul>
+    </div>
+
+    <div class="card timeline-item">
+      <h3>Assistant Retail Manager — Express Factory Outlet, Mercedes, TX</h3>
+      <p><em>2018 – 2021</em></p>
+      <ul>
+        <li>Optimized operations and staff performance through training and planning.</li>
+        <li>Supported hiring, scheduling, and supervision.</li>
+        <li>Managed inventory, merchandising, and customer service to boost sales.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+    <!-- Certifications -->
+    <section id="certs">
+  <h2>Certifications & Credentials</h2>
+  <div class="certs">
+    <div class="card">CompTIA IT Fundamentals (ITF+)</div>
+    <div class="card">Verifone Certified Technician</div>
+    <div class="card">POS Systems Deployment — 7-Eleven, Circle K, Murphy USA</div>
+    <div class="card">Network & System Support (Field Experience)</div>
+    <div class="card">Bilingual: English & Spanish</div>
+    <div class="card">Ongoing Professional Development</div>
+  </div>
+</section>
+
+    <!-- Contact -->
+    <section id="contact" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Contact</h2>
+
+      <div class="contact-grid">
+        <div class="contact-card">
+          <h3>Email</h3>
+          <a href="mailto:didarll.rodriguez8@gmail.com">didarll.rodriguez8@gmail.com</a>
+        </div>
+
+        <div class="contact-card">
+          <h3>Phone</h3>
+          <a href="tel:+19564632308">+1 (956) 463-2308</a>
+        </div>
+      </div>
+
+      <div class="contact-buttons">
+        <a class="btn-linkedin" href="https://www.linkedin.com/in/diego-rodriguez-8a5122252" target="_blank" rel="noopener">
+          <img src="images/linkedin.png" alt="" aria-hidden="true"> Connect on LinkedIn
+        </a>
+
+        <a class="btn-indeed" href="https://profile.indeed.com/p/diegor-k0jo2ws" target="_blank" rel="noopener">
+          <img src="images/indeed.png" alt="" aria-hidden="true"> View Indeed Profile
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Diego Rodriguez. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
